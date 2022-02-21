@@ -1,27 +1,27 @@
 programa {
 	funcao inicio() {
-		inteiro num1
-		inteiro num2
-		inteiro num3
-		inteiro maior
+		inteiro prod1
+		inteiro prod2
+		inteiro prod3
+		inteiro menor
 		
-		escreva("Informe o primeiro número: \n")
-		leia(num1)
-		escreva("Informe o segundo número: \n")
-		leia(num2)
-		escreva("Informe o terceiro número: \n")
-		leia(num3)
+		escreva("Informe o primeiro produto: \n")
+		leia(prod1)
+		escreva("Informe o segundo produto: \n")
+		leia(prod2)
+		escreva("Informe o terceiro produto: \n")
+		leia(prod3)
 		
-		se(num1 >= num2){
-		    maior = num1
+		se(prod1 <= prod2){
+		    menor = prod1
 		}senao{
-		    maior = num2
+		    menor = prod2
 		}
 		
-		se(num3 >= maior) {
-		    maior = num3
+		se(prod3 <= menor) {
+		    menor = prod3
 		}
 		
-		escreva("O maior número é: " + maior)
+		escreva("O produto mais barato Ã©: " + menor)
 	}
 }
