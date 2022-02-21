@@ -5,11 +5,11 @@ programa {
 		inteiro num3
 		inteiro maior
 		
-		escreva("Informe o primeiro número: \n")
+		escreva("Informe o primeiro nï¿½mero: \n")
 		leia(num1)
-		escreva("Informe o segundo número: \n")
+		escreva("Informe o segundo nï¿½mero: \n")
 		leia(num2)
-		escreva("Informe o terceiro número: \n")
+		escreva("Informe o terceiro nï¿½mero: \n")
 		leia(num3)
 		
 		se(num1 >= num2){
@@ -22,6 +22,6 @@ programa {
 		    maior = num3
 		}
 		
-		escreva("O maior número é: " + maior)
+		escreva("O maior nï¿½mero ï¿½: " + maior)
 	}
 }
